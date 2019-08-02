@@ -1,0 +1,457 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background:#DBDBDB; 
+}
+/* 导航开始 */
+.top-container {
+    position: fixed;
+    z-index: 99989;
+    width: 100vw;
+    height: 4rem;
+    background: #1d1d1d;
+    /* border: 1px solid red; */
+}
+.top-bar{
+    width: 100vw;
+    height: 4rem;
+    background: #1d1d1d;
+    /* border: 1px solid red; */
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     position: relative;
+}
+.toggle{
+    display: block;
+    background-size: cover;
+    background-position:0 -0.3rem;
+    background-origin: content-box;
+    float: left;
+    height:3.6rem;
+    width: 3.8rem;
+    margin-top: 0.4rem;
+    /* border: 1px solid white; */
+    background-image: url(../imges/bar.png) ;
+}
+.logo{
+    background-size: cover;
+    height: 3.6rem;
+    width: 3.8rem;
+    /* border: 1px solid white; */
+    background-image: url(../imges/nav-logo.f28bcf8a8822503b73bec6c09a784851\ \(1\).png);
+    background-position: 0 -0.1rem;
+}
+.sou{
+    width: 3.6rem;
+    height: 3.5rem;
+    /* border: 1px solid red; */
+    margin-right: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search{
+    height: 1.8rem; 
+    width: 1.8rem;
+    /* border: 1px solid white; */
+}
+/* 导航结束 */
+
+/* banner开始 */
+.banner-top{
+    /* width: 102vw; */
+    height: 4rem;
+}
+.banner{
+    width:100vw;
+    height: 13rem;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    position: relative;
+   
+}
+.banner-img{
+    width: 25rem;
+    height: 10rem;
+    /* border: 1px solid red; */
+}
+.banner-img img{
+    width: 25rem;
+    height: 10rem;
+}
+ul{
+    list-style: none;
+}
+.yuan-box{
+    width: 5.2rem;
+    height: 0.7rem;
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: 2rem;
+}
+.yuan-list li{
+    padding-left: 0.9rem;
+    float: left;
+}
+.yuan{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background:white;
+}
+.hot-box{
+    width: 100vw;
+    height: 19.1rem;
+    /* border: 1px solid red; */
+    background: white;
+    margin-top: 9px;
+   
+}
+.title{
+    width: 100vw;
+    height: 2.8rem;
+    border: 1px solid #F6F6F6;
+    position: relative; 
+    background: white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+}
+.title h2{
+    width: 5rem;
+    height: 2.8rem;
+    line-height: 2.8rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #666;
+    /* border: 1px solid red; */
+    margin-left: 1rem;
+}
+.dayu{
+    width: 1.4rem;
+    height: 2.8rem;
+    line-height: 2.8rem;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 0;
+    right:1.4rem;
+    font-size:1.2rem; 
+    color: #666;
+    font-weight: bolder;
+
+}
+.container{
+    width: 100vw;
+    height: 17.5rem;
+    overflow: scroll;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left;
+    display: flex;
+    
+}
+.item-box{
+    width: 9.8rem;
+    height: 16rem;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+    position: relative;
+    float: left;
+    margin-left: 0.7rem;
+}
+.item-img{
+    width: 9rem;
+    height: 9rem;
+    margin-top: 0.9rem;
+    border-radius:0.4rem; 
+    /* border: 1px solid red; */
+}
+.item-img img{
+    width: 9rem;
+    height: 9rem;
+    border-radius:0.4rem;
+    border: 1px solid #F5F5F5;
+}
+.item-text{
+    width: 8rem;
+    height: 4.5rem;
+    position: absolute;
+    bottom: 0.7rem;
+    /* border: 1px solid red; */
+
+}
+.item-text h4{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0;
+    font-size: 0.9rem;
+    color: #333;
+}
+.item-text .word{
+    margin-top: 0.3rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 0.8rem;
+    line-height: 1.2;
+    color: #7f7f7f;
+    min-height: 0.6rem;
+}
+
+.price{
+    margin-top: 0.3rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: bold;
+    color:#D44D44; 
+    white-space: nowrap;
+}
+i{
+    margin-top: 0.3rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-style: normal;
+    font-size: 0.8rem;
+    color:#D44D44; 
+    line-height: 1rem;
+}
+/* 服饰箱包 */
+.fushi{
+    width: 100vw;
+    height: 64rem;
+    border-top: 0.1px solid transparent;
+    
+    background: white;
+    margin-top: 9px;
+    position: relative;
+    /* box-sizing: border-box; */
+}
+
+ .title1{
+    width: 100vw;
+    height: 2.8rem;
+    border: 1px solid #F6F6F6;
+    position: absolute; 
+    background: white;
+    display: flex;
+    box-sizing: border-box;
+} 
+.title1 h2{
+    width: 11rem;
+    height: 2.8rem;
+    line-height: 2.8rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 1rem;
+    color: #666;
+} 
+.fushi-container{
+    width: 100vw;
+    height: 60rem;
+    margin-top:3rem;
+    /* border: 1px solid red; */
+}
+.fushi-box{
+    width: 26rem;
+    height: 10.7rem;
+    border: 1px solid #F6F6F6;
+    /* padding: 0.6rem; */
+    display: flex;
+    position: relative;
+    align-items: center;
+    position: relative;
+}
+.fushi-img{
+    width: 9rem;
+    height: 9rem;
+    /* border: 1px solid red; */
+}
+.fushi-img img{
+    width: 9rem;
+    height: 9rem;
+}
+.fushi-text{
+    width: 11rem;
+    height: 5.5rem;
+    /* border: 1px solid red; */
+    position: absolute;
+    right: 5.2rem;
+}
+
+.fushi-text .first{
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #333;
+}
+
+.fushi-text .second{
+    color: #7f7f7f;
+    font-size: 0.8rem;
+    line-height: 1.2;
+    overflow-x: hidden;
+    margin: 0.2rem 0 0;
+}
+.fushi-text .second1{
+    background: #e5efff;
+    border-radius: 0.2rem;
+    width: 1.9rem;
+    height: 0.9rem;
+    border: 1px solid #ABC4F9;
+    font-size: 0.6rem;
+    font-weight:bold; 
+    color: #3965cc;
+    text-align: center;
+    line-height: 1.2;
+    overflow-x: hidden;
+    margin: 0.4rem 0 0;
+
+}
+
+.circle{
+    width: 8rem;
+    height: 1rem;
+    /* border: 1px solid red; */
+    margin-top: 0.3rem;
+    line-height: 1rem;
+    display: flex;
+    /* justify-content: center; */
+}
+
+.circle-list li{
+    float: left;
+    margin-left: 0.4rem;
+}
+.circle-list li:first-child{
+    margin-left: 0;
+}
+.out{
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    border: 1px solid #CECECE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.in{
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    background: black;
+    /* border: 1px solid #CECECE; */
+
+}
+.huxi{
+    width: 100vw;
+    height: 40rem;
+    background: white;
+    margin-top: 9px;
+    position: relative;
+    /* border: 1px solid red; */
+}
+.huxi-container{
+    width: 100vw;
+    height: 38rem;
+    /* border: 1px solid blue; */
+    position: absolute;
+    top: 3rem;
+}
+.huxi-box{
+    width: 12rem;
+    height: 18rem;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+}
+.huxi-img {
+    width: 12rem;
+    height: 12rem;
+    /* border: 1px solid blue; */
+}
+.huxi-img img{
+    width: 12rem;
+    height: 12rem;
+}
+.huxi-text{
+    width: 8rem;
+    height: 4.5rem;
+    position: absolute;
+    bottom: 0.2rem;
+    
+}
+.peijian{
+    width: 100vw;
+    height: 60rem;
+    background: white;
+    margin-top: 9px;
+    position: relative;
+    /* border: 1px solid red; */
+}
+.peijian1{
+    margin-bottom: 75px;
+}
+.peijian-container{
+    width: 100vw;
+    height: 50rem;
+}
+.bottom-top{
+    width: 100vw;
+    height: 9px;
+    /* border: 1px solid red; */
+}
+.bottom{
+    width: 100vw;
+    height: 5.4rem;
+    /* border: 1px solid red; */
+    margin-top: 9px;
+    background: #fff;
+    bottom: 0;
+    position: fixed;
+}
+
+.bottom-list{
+    height: 5.4rem;
+    bottom: 0;
+    display: flex;
+    z-index: 2;
+    background: #fff;
+    display: flex;
+    box-shadow: 0 -11px 32px rgba(0,0,0,.08);
+}
+.bottom-box{
+    width: 6.7rem;
+    height:5.4rem;
+    color: #787878;
+    float: left;
+    /* border: 1px solid blue; */
+}
+.bottom-box img{
+    
+    width: 2rem;
+    height: 2rem;
+    /* border: 1px solid red; */
+    margin-top: 0.8rem;
+    margin-left: 2.4rem;
+    margin-top: 9px;
+   
+}
+.bottom-box h4{
+    width: 6.7rem;
+    height: 0.9rem;
+    /* border: 1px solid red; */
+    text-align: center;
+    font-size: 0.6rem;
+} 

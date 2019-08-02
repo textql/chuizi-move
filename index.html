@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>锤子商城1</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <script type="text/javascript">
+        function init() {
+            var width = document.documentElement.clientWidth;
+            //动态设置设备的html字体大小
+            document.documentElement.style.fontSize = (width / 320) * 12 + 'px';
+            if (width <= 320) {
+                document.documentElement.style.fontSize = 12 + 'px';
+            }
+        }
+        init()
+        //当屏幕宽度变化时
+        window.addEventListener('resize', init)
+        //当切换横竖屏时
+        window.addEventListener('orientationchange', init)
+
+    </script>
+    <div class="top-container">
+        <div class="top-bar">
+            <a href="#" class="toggle" title="菜单"></a>
+
+            <a href="#" class="logo" title="锤子商城"> </a>
+
+            <div class="sou">
+               <img src="imges/search.png" class="search" alt="">
+            </div>
+            
+        </div>
+
+
+    </div>
+    <div class="banner-top"></div>
+    <div class="banner">
+        <div class="banner-img">
+            <img src="imges/big-img.png" alt="">
+        </div>
+        <div class="yuan-box">
+            <ul class="yuan-list">
+                <li>
+                    <div class="yuan">
+
+                    </div>
+                </li>
+                <li>
+                    <div class="yuan">
+
+                    </div>
+                </li>
+                <li>
+                    <div class="yuan">
+
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="hot-box">
+        <div class="title">
+            <h2>热销产品</h2>
+            <p class="dayu"> > </p>
+        </div>
+        <div class="container">
+            <div class="item-box">
+                <div class="item-img">
+                    <img src="imges/xie.webp" alt="">
+                </div>
+                <div class="item-text">
+                    <h4>Smartisan 帆布鞋</h4>
+                    <p class="word">一双踏实、舒适的帆布鞋</p>
+                    <p class="price">
+                        <i>￥</i>
+                        <span>199.00</span>
+                    </p>
+                    <div class="good3">
+
+                    </div>
+                </div>
+            </div>
+            <div class="item-box">
+                <div class="item-img">
+                    <img src="imges/chatou.webp" alt="">
+                </div>
+                <div class="item-text">
+                    <h4>坚果 QuickCharge 4+快速充电器</h4>
+                    <p class="word">全面兼容的 18W 快速充电</p>
+                    <p class="price">
+                        <i>￥</i>
+                        <span>199.00</span>
+                    </p>
+                    <div class="good3">
+
+                    </div>
+                </div>
+            </div>
+            <div class="item-box">
+                <div class="item-img">
+                    <img src="imges/DNA.webp" alt="">
+                </div>
+                <div class="item-text">
+                    <h4>各色DNA检测套装</h4>
+                    <p class="word">千万级基因位点数据解读</p>
+                    <p class="price">
+                        <i>￥</i>
+                        <span>199.00</span>
+                    </p>
+                    <div class="good3">
+
+                    </div>
+                </div>
+            </div>
+            <div class="item-box">
+                <div class="item-img">
+                    <img src="imges/clothe1.webp" alt="">
+                </div>
+                <div class="item-text">
+                    <h4>Smartisan T恤 毕加索</h4>
+                    <p class="word"></p>
+                    <p class="price">
+                        <i>￥</i>
+                        <span>199.00</span>
+                    </p>
+                    <div class="good3">
+
+                    </div>
+                </div>
+            </div>
+            <div class="item-box">
+                <div class="item-img">
+                    <img src="imges/dianyuan.webp" alt="">
+                </div>
+                <div class="item-text">
+                    <h4>Smartisan 快充移动电源</h4>
+                    <p class="word">双向快充、轻盈便携、高标准安全保护</p>
+                    <p class="price">
+                        <i>￥</i>
+                        <span>149.00</span>
+                    </p>
+                    <div class="good3">
+
+                    </div>
+                </div>
+            </div>
+            <div class="item-box">
+                <div class="item-img">
+                    <img src="imges/dianchi.webp" alt="">
+                </div>
+                <div class="item-text">
+                    <h4>坚果“电池形电池”移动电源</h4>
+                    <p class="word">别具一格的“全能型”移动电源</p>
+                    <p class="price">
+                        <i>￥</i>
+                        <span>199.00</span>
+                    </p>
+                    <div class="good3">
+
+                    </div>
+                </div>
+            </div>
+            <div class="item-box">
+                <div class="item-img">
+                    <img src="imges/erji.webp" alt="">
+                </div>
+                <div class="item-text">
+                    <h4>Smartisan 半入耳式耳机</h4>
+                    <p class="word">经典配色、专业调音、高品质麦克风</p>
+                    <p class="price">
+                        <i>￥</i>
+                        <span>199.00</span>
+                    </p>
+                    <div class="good3">
+
+                    </div>
+                </div>
+            </div>
+            <div class="item-box">
+                <div class="item-img">
+                    <img src="imges/yinxiang.webp" alt="">
+                </div>
+                <div class="item-text">
+                    <h4>坚果砖式蓝牙小音箱</h4>
+                    <p class="word">一款设计出色、音质出众的随身音箱</p>
+                    <p class="price">
+                        <i>￥</i>
+                        <span>199.00</span>
+                    </p>
+                    <div class="good3">
+
+                    </div>
+                </div>
+            </div>
+            <div class="item-box">
+                <div class="item-img">
+                    <img src="imges/chatou1.webp" alt="">
+                </div>
+                <div class="item-text">
+                    <h4>Smartisan 原装快充充电器</h4>
+                    <p class="word">18W 安全快充</p>
+                    <p class="price">
+                        <i>￥</i>
+                        <span>199.00</span>
+                    </p>
+                    <div class="good3">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fushi">
+        <div class="title1">
+            <h2>服饰箱包</h2>
+            <p class="dayu"> > </p>
+        </div>
+        <div class="fushi-container">
+            <div class="fushi-box">
+                <div class="fushi-img">
+                    <img src="imges/box1.webp" alt="">
+                </div>
+                <div class="fushi-text">
+                    <p class="first">地平线 8 号旅行箱</p>
+                    <p class="second">简约设计、德国拜耳 PC 箱体</p>
+                    <div class="circle">
+                        <ul class="circle-list">
+                            <li>
+                                <div class="out">
+                                    <div class="in"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="out">
+                                    <div class="in" style="background:#9B9B9B "></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="out">
+                                    <div class="in" style="background: #4990E2"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="price">
+                        <i>￥</i>
+                        <span>199.00</span>
+                    </p>
+                </div>
+            </div>
+            <div class="fushi-box">
+                <div class="fushi-img">
+                    <img src="imges/clothe.webp" alt="">
+                </div>
+                <div class="fushi-text">
+                    <p class="first">地平线 8 号旅行箱</p>
+                    <p class="second1">男款</p>
+                    <div class="circle">
+                        <ul class="circle-list">
+                            <li>
+                                <div class="out">
+                                    <div class="in" style="background:white"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="out">
+                                    <div class="in" style="background:black "></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="out">
+                                    <div class="in" style="background: #B5B9BC"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="price">
+                        <i>￥</i>
+                        <span>199.00</span>
+                    </p>
+                </div>
+            </div>
+            <div class="fushi-box">
+                <div class="fushi-img">
+                    <img src="imges/box2.webp" alt="">
+                </div>
+                <div class="fushi-text">
+                    <p class="first">地平线 8 号旅行箱</p>
+                    <p class="second">简约设计、德国拜耳 PC 箱体</p>
+                    <div class="circle">
+                        <ul class="circle-list">
+                            <li >
+                                <div class="out">
+                                    <div class="in" style="background: #9B9B9B"></div>
+                                </div>
+                            </li>
+                        
+                            <li>
+                                <div class="out">
+                                    <div class="in" style="background: #4A4A4A"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="price">
+                        <i>￥</i>
+                        <span>199.00</span>
+                    </p>
+                </div>
+            </div>
+            <div class="fushi-box">
+                <div class="fushi-img">
+                    <img src="imges/clothe3.webp" alt="">
+                </div>
+                <div class="fushi-text">
+                    <p class="first">地平线 8 号旅行箱</p>
+                    <p class="second1">男款</p>
+                    <div class="circle">
+                        <ul class="circle-list">
+                            <li>
+                                <div class="out">
+                                    <div class="in" style="background:white"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="out">
+                                    <div class="in" style="background:#B5B9BC "></div>
+                                </div>
+                            </li>
+                            <!-- <li>
+                                <div class="out">
+                                    <div class="in" style="background: #B5B9BC"></div>
+                                </div>
+                            </li> -->
+                        </ul>
+                    </div>
+                    <p class="price">
+                        <i>￥</i>
+                        <span>199.00</span>
+                    </p>
+                </div>
+            </div>
+            <div class="fushi-box">
+                <div class="fushi-img">
+                    <img src="imges/clothe4.webp" alt="">
+                </div>
+                <div class="fushi-text">
+                    <p class="first">地平线 8 号旅行箱</p>
+                    <p class="second1">男款</p>
+                    <div class="circle">
+                        <ul class="circle-list">
+                            <li>
+                                <div class="out">
+                                    <div class="in" style="background:#1E1E1E"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="out">
+                                    <div class="in" style="background:white "></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="out">
+                                    <div class="in" style="background: #172542"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="out">
+                                    <div class="in" style="background: #B5B9BC"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="out">
+                                    <div class="in" style="background: #BA0926"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="out">
+                                    <div class="in" style="background: #565852"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="price">
+                        <i>￥</i>
+                        <span>199.00</span>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="huxi">
+        <div class="title1">
+            <h2>畅呼吸</h2>
+            <p class="dayu"> > </p>
+        </div>
+        <div class="huxi-container">
+            <div class="item-box huxi-box">
+                <div class="item-img huxi-img">
+                    <img src="imges/jinghuaqi.webp" alt="">
+                </div>
+                <div class="item-text huxi-text">
+                    <h4>Smartisan 快充移动电源</h4>
+                    <p class="word">双向快充、轻盈便携、高标准安全保护</p>
+                    <p class="price">
+                        <i>￥</i>
+                        <span>149.00</span>
+                    </p>
+
+                </div>
+            </div>
+            <div class="item-box huxi-box">
+                <div class="item-img huxi-img">
+                    <img src="imges/jiashiqi2.webp" alt="">
+                </div>
+                <div class="item-text huxi-text">
+                    <h4>Smartisan 快充移动电源</h4>
+                    <p class="word">双向快充、轻盈便携、高标准安全保护</p>
+                    <p class="price">
+                        <i>￥</i>
+                        <span>149.00</span>
+                    </p>
+
+                </div>
+            </div>
+            <div class="item-box huxi-box">
+                <div class="item-img huxi-img">
+                    <img src="imges/jiashiqi3.webp" alt="">
+                </div>
+                <div class="item-text huxi-text">
+                    <h4>Smartisan 快充移动电源</h4>
+                    <p class="word">双向快充、轻盈便携、高标准安全保护</p>
+                    <p class="price">
+                        <i>￥</i>
+                        <span>149.00</span>
+                    </p>
+
+                </div>
+            </div>
+            <div class="item-box huxi-box">
+                <div class="item-img huxi-img">
+                    <img src="imges/jiashiqi4.webp" alt="">
+                </div>
+                <div class="item-text huxi-text">
+                    <h4>Smartisan 快充移动电源</h4>
+                    <p class="word">双向快充、轻盈便携、高标准安全保护</p>
+                    <p class="price">
+                        <i>￥</i>
+                        <span>149.00</span>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="peijian">
+        <div class="title1">
+            <h2>官方配件</h2>
+            <p class="dayu"> > </p>
+        </div>
+        <div class="huxi-container peijian-container">
+            <div class="item-box huxi-box">
+                <div class="item-img huxi-img">
+                    <img src="imges/peijian1.webp" alt="">
+                </div>
+                <div class="item-text huxi-text">
+                    <h4>Smartisan 快充移动电源</h4>
+                    <p class="word">双向快充、轻盈便携、高标准安全保护</p>
+                    <p class="price">
+                        <i>￥</i>
+                        <span>149.00</span>
+                    </p>
+
+                </div>
+            </div>
+            <div class="item-box huxi-box">
+                <div class="item-img huxi-img">
+                    <img src="imges/peijian2.webp" alt="">
+                </div>
+                <div class="item-text huxi-text">
+                    <h4>Smartisan 快充移动电源</h4>
+                    <p class="word">双向快充、轻盈便携、高标准安全保护</p>
+                    <p class="price">
+                        <i>￥</i>
+                        <span>149.00</span>
+                    </p>
+
+                </div>
+            </div>
+            <div class="item-box huxi-box">
+                <div class="item-img huxi-img">
+                    <img src="imges/peijian3.webp" alt="">
+                </div>
+                <div class="item-text huxi-text">
+                    <h4>Smartisan 快充移动电源</h4>
+                    <p class="word">双向快充、轻盈便携、高标准安全保护</p>
+                    <p class="price">
+                        <i>￥</i>
+                        <span>149.00</span>
+                    </p>
+
+                </div>
+            </div>
+            <div class="item-box huxi-box">
+                <div class="item-img huxi-img">
+                    <img src="imges/peijian4.webp" alt="">
+                </div>
+                <div class="item-text huxi-text">
+                    <h4>Smartisan 快充移动电源</h4>
+                    <p class="word">双向快充、轻盈便携、高标准安全保护</p>
+                    <p class="price">
+                        <i>￥</i>
+                        <span>149.00</span>
+                    </p>
+
+                </div>
+            </div>
+            <div class="item-box huxi-box">
+                <div class="item-img huxi-img">
+                    <img src="imges/peijian5.webp" alt="">
+                </div>
+                <div class="item-text huxi-text">
+                    <h4>Smartisan 快充移动电源</h4>
+                    <p class="word">双向快充、轻盈便携、高标准安全保护</p>
+                    <p class="price">
+                        <i>￥</i>
+                        <span>149.00</span>
+                    </p>
+
+                </div>
+            </div>
+            <div class="item-box huxi-box">
+                <div class="item-img huxi-img">
+                    <img src="imges/peijian6.webp" alt="">
+                </div>
+                <div class="item-text huxi-text">
+                    <h4>Smartisan 快充移动电源</h4>
+                    <p class="word">双向快充、轻盈便携、高标准安全保护</p>
+                    <p class="price">
+                        <i>￥</i>
+                        <span>149.00</span>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="peijian peijian1">
+        <div class="title1">
+            <h2>坚果系列手机及配件</h2>
+            <p class="dayu"> > </p>
+        </div>
+        <div class="huxi-container peijian-container">
+            <div class="item-box huxi-box">
+                <div class="item-img huxi-img">
+                    <img src="imges/jianguo1.webp" alt="">
+                </div>
+                <div class="item-text huxi-text">
+                    <h4>Smartisan 快充移动电源</h4>
+                    <p class="word">双向快充、轻盈便携、高标准安全保护</p>
+                    <p class="price">
+                        <i>￥</i>
+                        <span>149.00</span>
+                    </p>
+
+                </div>
+            </div>
+            <div class="item-box huxi-box">
+                <div class="item-img huxi-img">
+                    <img src="imges/jianguo2.webp" alt="">
+                </div>
+                <div class="item-text huxi-text">
+                    <h4>Smartisan 快充移动电源</h4>
+                    <p class="word">双向快充、轻盈便携、高标准安全保护</p>
+                    <p class="price">
+                        <i>￥</i>
+                        <span>149.00</span>
+                    </p>
+
+                </div>
+            </div>
+            <div class="item-box huxi-box">
+                <div class="item-img huxi-img">
+                    <img src="imges/jianguo3.webp" alt="">
+                </div>
+                <div class="item-text huxi-text">
+                    <h4>Smartisan 快充移动电源</h4>
+                    <p class="word">双向快充、轻盈便携、高标准安全保护</p>
+                    <p class="price">
+                        <i>￥</i>
+                        <span>149.00</span>
+                    </p>
+
+                </div>
+            </div>
+            <div class="item-box huxi-box">
+                <div class="item-img huxi-img">
+                    <img src="imges/jianguo4.webp" alt="">
+                </div>
+                <div class="item-text huxi-text">
+                    <h4>Smartisan 快充移动电源</h4>
+                    <p class="word">双向快充、轻盈便携、高标准安全保护</p>
+                    <p class="price">
+                        <i>￥</i>
+                        <span>149.00</span>
+                    </p>
+
+                </div>
+            </div>
+            <div class="item-box huxi-box">
+                <div class="item-img huxi-img">
+                    <img src="imges/jianguo5.webp" alt="">
+                </div>
+                <div class="item-text huxi-text">
+                    <h4>Smartisan 快充移动电源</h4>
+                    <p class="word">双向快充、轻盈便携、高标准安全保护</p>
+                    <p class="price">
+                        <i>￥</i>
+                        <span>149.00</span>
+                    </p>
+
+                </div>
+            </div>
+            <div class="item-box huxi-box">
+                <div class="item-img huxi-img">
+                    <img src="imges/jianguo6.webp" alt="">
+                </div>
+                <div class="item-text huxi-text">
+                    <h4>Smartisan 快充移动电源</h4>
+                    <p class="word">双向快充、轻盈便携、高标准安全保护</p>
+                    <p class="price">
+                        <i>￥</i>
+                        <span>149.00</span>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-top">
+
+    </div>
+    <div class="bottom">
+        <ul class="bottom-list">
+            <li class="bottom-box">
+               <img src="imges/shouye.png" alt=""> <br>
+                <h4>首页</h4>
+            </li>
+            <li class="bottom-box">
+                <img src="imges/fenlei.png" alt=""> <br>
+                 <h4>分类</h4>
+             </li>
+             <li class="bottom-box">
+                <img src="imges/gouwuche.png" alt=""> <br>
+                 <h4>购物车</h4>
+             </li>
+             <li class="bottom-box">
+                <img src="imges/geren.png" alt=""> <br>
+                 <h4>个人中心</h4>
+             </li>
+        </ul>
+    </div>
+
+
+
+
+</body>
+
+</html>
